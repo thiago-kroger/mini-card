@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= VT323 & display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portifólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+            <h1 class="nome">Thiago Kroger</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionada" id="sobre-mim">
+                    <img src="./src/imagens/sobre-mim.gif" alt="ícone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/minhas-redes.gif" alt="ícone de redes sociais">
+                </li>   
+            </ul>
+ 
+            <div class="informacoes-abas">
+                <div class="informacao selecionada" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p> Olá! meu nome é <strong>Thiago Kroger Tofani</strong>!</p>
+                        
+                        <p>Tenho como <u>objetivo</u>:</p>
+
+                        <p>Usar meu conhecimento para resolver problemas e
+                        contribuir com o conhecimento coletivo, ensinando o que aprendi.
+                        Atualmente comecei a colocar em prática estudando
+                        <span>HTML, CSS e JavaScript.</span></p>
+                        
+                        <p>Meus principais <i>hobbies</i> são
+                        passear com meu pet, cozinhar e viajar!</p>
+                    </div>
+
+                </div>
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.linkedin.com/in/thiago-kroger/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/thiago-kroger" target="_blank" class="github">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/thikroger/" target="_blank" class="instagram">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
